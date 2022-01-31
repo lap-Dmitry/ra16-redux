@@ -1,38 +1,37 @@
-.App {
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+h2 {
+  font-size: 4em;
+  font-weight: bold;
   text-align: center;
+  text-transform: uppercase;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input_row {
+text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+    text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.servise__list__row {
+    display: flex;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row_price {
+    padding: 0px 15px;
+}
+.btn_box {
+    padding-top: 10px;
+}
+.material-icons {
+    cursor: pointer;
+}
+.list_container {
+    text-align: center;
 }
